@@ -320,11 +320,29 @@ body {
     }
 
     .card__front {
-        left: 70%;
+        width: 400px;
+        height: 240px;
+        left: 45%;
+    }
+
+    .card__front--img {
+        width: 75px;
+    }
+
+    .card__front p {
+        font-size: 1.5rem;
     }
 
     .card__back {
-        left: 80%;
+        width: 400px;
+        height: 240px;
+        top: 500px;
+        left: 55%;
+    }
+
+    .card__back span {
+        top: 108px;
+        font-size: 1rem;
     }
 
     .container__form {
@@ -341,7 +359,8 @@ body {
 }
 
 @media screen and (min-width: 1440px) {
+
     .form, #completed {
-        padding-right: 4rem;
+        padding-right: 6rem;
     }
 }
